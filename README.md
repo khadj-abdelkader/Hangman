@@ -8,11 +8,11 @@ Si vous ne connaissez pas le jeu => [Wikipédia](https://fr.wikipedia.org/wiki/J
 
 ## Les règles
 
-1. La partie est automatiquement démarré au chargement de la page.
-2. Le jeu choisit aléatoirement le mot à trouver parmis une liste que vous aurez créé.
-3. Le jeu doit afficher le nombre de lettres du mot sous forme d'espace à remplir (cf. mockups).
+1. La partie est automatiquement démarrée au chargement de la page.
+2. Le jeu choisit aléatoirement le mot à trouver parmi une liste que vous aurez créé.
+3. Le jeu doit afficher le nombre de lettres du mot sous forme d'espaces à remplir (cf. mockups).
 4. Le joueur doit deviner le mot.
-5. Il peut choisir une lettre, si cette lettre est présente dans le mot, elle est ajouté sur les espaces correspondants.
+5. Il peut choisir une lettre, si cette lettre est présente dans le mot, elle est ajoutée sur les espaces correspondants.
 6. Si la lettre n'existe pas, il perd un essai.
 7. Après 10 essais ratés, le joueur a perdu la partie.
 
@@ -45,16 +45,16 @@ avec un double tilde `~`.
     2. Choix 2
 
 - Affichage du pendu :
-    1. Dessiner un « vrai » pendu qui s'affiche complètement au fur et à mesure de la partie (cf. mockup main-screen).
+    1. ~~Dessiner un « vrai » pendu qui s'affiche complètement au fur et à mesure de la partie (cf. mockup main-screen).~~
     2. Afficher un compteur de raté (cf. mockup light-screen).
-    3. Création graphique.
+    3. ~~Création graphique.~~
 
 - Respecter les mockups :
     1. Respect strict.
-    2. Création graphique.
+    2. ~~Création graphique.~~
 
 - Responsive :
-    1. Oui
+    1. ~~Oui~~
     2. Non
 
 ## Mockups
@@ -90,5 +90,5 @@ Cela peut inclure l'écriture d'une ou deux lignes de code sur votre examen. Cho
 - Ajouter un choix de 3 difficultés. La difficulté est basée sur la liste de mot (faire 3 listes de mots).
 - Faire retenir les mots passés entre les parties pour ne pas retomber dessus sur les parties suivantes. Remettre à zéro
 cette « mémoire » une fois tous les mots passés.
-- Utiliser les touches du clavier pour déclancher les boutons de lettre.
-- Ajouter une musique d'ambiance pendant le jeu, une musique de victore et une de défaite.
+- Utiliser les touches du clavier pour déclencher les boutons de lettre.
+- Ajouter une musique d'ambiance pendant le jeu, une musique de victoire et une de défaite.

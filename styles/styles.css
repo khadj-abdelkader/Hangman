@@ -1,0 +1,34 @@
+h1.navbar-brand {
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+#missed-part{
+    horiz-align: left;
+}
+
+#guess-part{
+    horiz-align: right;
+}
+
+.word-wrapper {
+    display: flex;
+}
+
+.word-wrapper li {
+    position: relative;
+    list-style: none;
+    margin: 0 5px;
+    min-width: 20px;
+    text-align: center;
+}
+
+.word-wrapper li::after {
+    display: block;
+    position: absolute;
+    content: '';
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
