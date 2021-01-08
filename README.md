@@ -18,6 +18,8 @@ Si vous ne connaissez pas le jeu => [Wikipédia](https://fr.wikipedia.org/wiki/J
 
 ## Les contraintes
 
+Vous avez le droit d'utiliser Internet, vos notes de cours et les corrigés d'exercices.
+
 ### Obligatoires
 
 - Vous pouvez utiliser ce que vous voulez pour le CSS.
@@ -85,6 +87,8 @@ Cela peut inclure l'écriture d'une ou deux lignes de code sur votre examen. Cho
 
 ## Bonus
 
-- Ajouter un choix de 3 difficultés. La difficultés est basée sur la liste de mot.
+- Ajouter un choix de 3 difficultés. La difficulté est basée sur la liste de mot (faire 3 listes de mots).
 - Faire retenir les mots passés entre les parties pour ne pas retomber dessus sur les parties suivantes. Remettre à zéro
 cette « mémoire » une fois tous les mots passés.
+- Utiliser les touches du clavier pour déclancher les boutons de lettre.
+- Ajouter une musique d'ambiance pendant le jeu, une musique de victore et une de défaite.
