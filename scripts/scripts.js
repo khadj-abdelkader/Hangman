@@ -64,6 +64,8 @@ function randomWords() {
 
 const selectedWord = randomWords();
 
+displayGuessLetters(selectedWord);
+
 $aButton.addEventListener('click', () => {
     $aButton.style.backgroundColor = colors[0];
 });
