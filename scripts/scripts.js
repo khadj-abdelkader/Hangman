@@ -170,6 +170,8 @@ $zButton.addEventListener('click', () => {
     $zButton.style.backgroundColor = colors[0];
 });
 
+const $counter = document.querySelector('#counter');
+
 function isLetterExists(){
     // Si la lettre existe dans le mot (!== null) alors afficher en vert. Sinon, (=== null) laisser en rouge
     // if ($letterButton !== null) {
@@ -179,16 +181,15 @@ function isLetterExists(){
     if (checkLetter !== -1){
         //Afficher la ou les lettres
     } else {
-        // Incrémenter le compteur
+        for (let i=0; i<=10; i++){
+            $counter.innerHTML = '<h1 id="counter">1/10</h1>'; //Aussi essayé avec i/10 pour l'incrémentation mais ne fonctionne pas
+        }
     }
 }
 
-// Pour barrer les lettres, balise html <strike></strike> autour de la lettre, mais comment l'insérer là où on veut depuis js ?
+// Pour barrer les lettres, balise html <s></s> autour de la lettre, mais comment l'insérer là où on veut depuis js ?
 // .insertBefore ?
 
-// Pour barrer les lettres, <strike> en html est obsolète
-// Nouvelle version :
-// <s></s>
 
 
 
