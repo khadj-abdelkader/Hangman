@@ -175,6 +175,12 @@ function isLetterExists(){
     // if ($letterButton !== null) {
     //     $letterButton.style.backgroundColor = colors[1];
     // }
+    let checkLetter = words.indexOf('click');
+    if (checkLetter !== -1){
+        //Afficher la ou les lettres
+    } else {
+        // Incrémenter le compteur
+    }
 }
 
 // Pour barrer les lettres, balise html <strike></strike> autour de la lettre, mais comment l'insérer là où on veut depuis js ?
